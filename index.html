@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en" style="scroll-behavior: smooth;">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aqua Website</title>
+  <style>
+}
+  .dropbtn {
+  background-color: #00C1FF;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  border-radius:15%;
+  margin-right:5px;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  border-radius:5%
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  border-radius:5%
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #006788;}
+  </style>
+</head>
+<body style="margin: 0px;">
+
+  <!-- Untuk navigasi -->
+  <header style="background-image:url('header.jpg'); display: flex; flex-direction: column; align-items: center;">
+    <!-- Untuk Judul -->
+    <div style="padding: 8px; display:flex; flex-direction: column; align-items: center;">
+      <h1 style="font-size: 24pt; font-weight:700; color:white">AQUA</h1>
+      <div style="font-size: 14pt; color:white">Mata air terjernih dari gunung</div>
+    </div>
+    <!-- Untuk Menu Navigasi -->
+    <nav style="background-color: #0087B2; width: 100%; display: flex; flex-direction: row; justify-content: left; padding-top: 5px; padding-bottom: 5px; padding-left: 100px; ">
+      <div class="dropdown" >
+		<button class="dropbtn">Artikel</button>
+		<div class="dropdown-content">
+			<a href="#k-1" class="menu-nav">Profil</a>
+			<a href="#k-2" class="menu-nav">Sejarah</a>
+			<a href="#k-3" class="menu-nav">Trivia</a>
+		</div>
+	  </div>
+	  <div class="dropdown">
+		<button class="dropbtn">Social Media</button>
+		<div class="dropdown-content">
+			<a href="#" class="menu-nav">Instagram</a>
+			<a href="#" class="menu-nav">Youtube</a>
+		</div>
+	  </div>
+    </nav>
+  </header>
+  <main style="display: flex; flex-direction: row;">
+    <div style="background-color: #B4EDFF; width: 100%; padding: 50px;">
+      <article id="k-1">
+        <h2>PROFIL</h2>
+        <img src="g1.jpeg" alt="Gambar 1" style="width:80%; border-radius:5%">
+        <p>AQUA (atau disebut juga Danone-AQUA) adalah merek air minum dalam kemasan yang diproduksi oleh AQUA
+         Group sejak tahun 1973. Selain di Indonesia, AQUA juga melayani penjualan produk di Malaysia, Singapura dan
+         Brunei[butuh rujukan][1]. Sebagai pelopor air minum dalam kemasan di Indonesia, AQUA telah menjadi merek generik
+         di kalangan produk air minum dalam kemasan.[2]Produk AQUA berasal 
+         dari sumber air pegunungan di Indonesia yang diklaim pemilihannya melalui penelitian lebih dari 1 tahun. AQUA juga berfokus
+         pada upaya memelihara keberlanjutan sumber air dengan melindungi ekosistem dan menjaga kemurnian kandungan mineralnya.</p>
+      </article>
+      <article id="k-2">
+        <h2>SEJARAH</h2>
+        <img src="g2.png" alt="Gambar 2" style="width:80%; border-radius:5%">
+        <p>Latar Belakang
+        Pendirian awal AQUA dimulai saat Tirto Utomo keluar dari pekerjaannya yang sebagai pegawai Pertamina.
+        Dahulu, saat bekerja di perusahaan migas tersebut, air yang disajikan pada tamunya merupakan 
+        air kran, sehingga pernah membuat mereka terkena diare. Hal ini membuat Tirto sadar pentingnya 
+        membuat air minum yang higienis.[4] Tirto mulai mempelajari cara memproses air menjadi air minum
+        siap konsumsi. Tirto meminta sang adik, yaitu Slamet Utomo untuk bekerja secara magang pada pabrik
+        Air Mineral Dalam Kemasan "Polaris" di Thailand, yang saat itu telah berproduksi selama lebih
+        dari 15 tahun lamanya.</p>
+      </article>
+      <article id="k-3">
+        <h2>Slogan</h2>
+        <img src="g3.jpg" alt="Gambar 3" style="width:80%; border-radius:5%">
+        <p> 
+          •Bersih, bening, bebas bakteri (1986-1991)
+          •Air sehat setiap saat (1991-1999)
+          •Sehatnya Nyata (1999-2004)
+          •Dari Sumber Terlindung, Melindungi Anda Sekeluarga (2002-2004)
+          •Begitu Hidup Dengan AQUA (2005-2007)
+          •Kemurnian Untuk Masa Depan (2007-2009)
+          •Kebaikan Alam, Kebaikan Hidup (2009-2013, 2017-2020)
+          •Kebaikan Hidup (2013-2017)
+          •Terlindungi Untuk Melindungimu (2020-2022)
+          •Murni & Terlindungi (2022-sekarang)</p>
+      </article>
+    </div>
+    <aside style="background-color: #B4EDFF; width: 50%; padding: 50px;">
+	  <b><center>
+	  <h2>Biodata Creator</h2>
+      <img src="profil.jpg" alt="Foto Profil" style="width:50%; border-radius:30%; 
+	  box-shadow: 5px 10px 21px 4px rgba(0,0,0,0.75);">
+	  <br><br>
+	  <table>
+        <tr>
+          <td>Nama</td>
+          <td>: Muhamad Dani</td>
+        </tr>
+        <tr>
+          <td>Email </td>
+          <td>: m346x0902@dicoding.org</td>
+        </tr>
+      </table>
+	  </b>
+	  </center>
+    </aside>
+  </main>
+  <footer>
+		<h3 style="background-color: #0087B2; padding: 30px; text-align: center; color:white;">&#169; Copyright 2022 - Muhamad Dani x Dicoding</h3>
+  </footer>
+</body>
+</html>
